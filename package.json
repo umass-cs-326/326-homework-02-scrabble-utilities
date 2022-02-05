@@ -1,0 +1,20 @@
+{
+  "name": "326-homework-02-scrabble-utilities",
+  "version": "1.0.0",
+  "description": "326 homework 02 scrabble utilities",
+  "main": "scrabbleUtils.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/umass-cs-326/326-homework-02-scrabble-utilities.git"
+  },
+  "author": "326",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/umass-cs-326/326-homework-02-scrabble-utilities/issues"
+  },
+  "homepage": "https://github.com/umass-cs-326/326-homework-02-scrabble-utilities#readme"
+}

@@ -1,8 +1,7 @@
 "use strict"; // Don't touch me. This makes JS more safe.
 
-// We use the `require` function to load the dictionary. This is a common
-// pattern to load in external data files containing a single object.
-const dictionary = require("./dictionary.json");
+// Here, we import the dictionary of scrabble words.
+import { dictionary } from "./dictionary.js";
 
 /**
  * This function checks whether a given word can be constructed with the
@@ -57,10 +56,5 @@ function bestPossibleWords(availableTiles) {
   // TODO
 }
 
-// This is how we make the functions available to other files in a Node.js-like
-// environment. There is a special variable called exports that is used to
-// export functions or anything else we want to export to other files.
-exports.canConstructWord = canConstructWord;
-exports.baseScore = baseScore;
-exports.possibleWords = possibleWords;
-exports.bestPossibleWords = bestPossibleWords;
+// This exports our public functions.
+export { canConstructWord, baseScore, possibleWords, bestPossibleWords };
