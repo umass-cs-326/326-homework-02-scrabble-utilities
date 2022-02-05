@@ -3,4 +3,4 @@
 # Instructions
 
 - To run this code in the browser you need to install the VSCode [Live Server extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer). This will allow you to run an HTTP server inside of VSCode and load the `index.html` file in your browser.
-- After you install the extension, open up the command palette (`shift-command-p` on mac, `shift-control-p` on windows/linux) and type in `Live Preview: Start Server`. This will open a side-by-side view running a web browser. However, you should open your running application in the browser at [http://127.0.0.1:3000]. You are then free to use the devtools and console in Chrome. Any edit you make to your code will automatically reload in the browser. Um, cool.
+- After you install the extension, you can right-click on `index.html` and select "Open with Live Server". This will run a web server in the background and load the `index.html` file in your browser. You are then free to use the devtools and console in Chrome. Any edit you make to your code will automatically reload in the browser. Um, cool.
